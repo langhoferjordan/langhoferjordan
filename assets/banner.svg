@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
+  <title id="title">Jordan L. Full-Stack AI Engineer</title>
+  <desc id="desc">Deep navy banner with a modern AI systems icon and areas of expertise</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0A1020"/><stop offset="1" stop-color="#17283A"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5AD8FF"/><stop offset="1" stop-color="#66EAC2"/></linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#8095B1" stroke-opacity=".08" stroke-width="1"/></pattern>
+  </defs>
+  <rect width="1200" height="330" fill="url(#bg)" rx="22"/>
+  <rect width="1200" height="330" fill="url(#grid)" rx="22"/>
+  <rect x="48" y="51" width="5" height="221" rx="2.5" fill="url(#accent)"/>
+  <text x="82" y="103" fill="#84A5BD" font-family="Arial,Helvetica,sans-serif" font-size="20" letter-spacing="4">FULL-STACK AI ENGINEER</text>
+  <text x="81" y="171" fill="#F5F9FF" font-family="Arial,Helvetica,sans-serif" font-size="60" font-weight="700">Jordan L.</text>
+  <text x="83" y="224" fill="#C7DAE7" font-family="Arial,Helvetica,sans-serif" font-size="25">Building production-ready AI products</text>
+  <text x="83" y="268" fill="#61DCCB" font-family="Arial,Helvetica,sans-serif" font-size="19">AI SaaS    /    Agents    /    RAG    /    Python</text>
+  <g transform="translate(957 165)" fill="none" stroke="url(#accent)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <circle r="54" stroke-opacity=".28"/>
+    <circle r="21" fill="#1A3A4B"/>
+    <path d="M-21 0H-72M21 0H72M0-21V-72M0 21V72M-15-15L-51-51M15 15L51 51M15-15L51-51M-15 15L-51 51"/>
+    <g fill="#61DCCB" stroke="none"><circle cx="-72" r="8"/><circle cx="72" r="8"/><circle cy="-72" r="8"/><circle cy="72" r="8"/><circle cx="-51" cy="-51" r="7"/><circle cx="51" cy="51" r="7"/><circle cx="51" cy="-51" r="7"/><circle cx="-51" cy="51" r="7"/></g>
+  </g>
+</svg>
