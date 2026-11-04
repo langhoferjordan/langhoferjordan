@@ -1,0 +1,18 @@
+name: Python examples tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Test retrieval evaluation starter
+        run: python -m unittest discover -s examples/rag-evaluation-starter/tests -v
+      - name: Test approval workflow
+        run: python -m unittest discover -s examples/human-approval-workflow/tests -v
